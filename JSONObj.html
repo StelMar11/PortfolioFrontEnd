@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+  </head>
+  <body>
+    <h1>Pruebar: código JSON</h1>
+    <h2>Creación de objeto JSON, a partir de código js.</h2>
+    <p id="demo"></p>
+    <script>
+        var JSONObj={nombrelibro:"El hacedor", precio: 500};
+        var myJSON=JSON.stringify(JSONObj);
+        console.log(myJSON);
+        document.getElementById("demo").innerHTML=myJSON;   
+
+    </script>
+  
+  </body>
+</html>

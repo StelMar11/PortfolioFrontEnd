@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "name": "portfoliofrontend",
+  "description": "Repositorio para el FrontEnd del portfolio\r Proyecto Portfolio Web en HTML, CSS y Javascript",
+  "version": "1.0.0",
+  "main": "bootstrap.bundle.min.js",
+  "devDependencies": {},
+  "scripts": {
+    "start":"htpp-server-p 8436"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StelMar11/PortfolioFrontEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StelMar11/PortfolioFrontEnd/issues"
+  },
+  "homepage": "https://github.com/StelMar11/PortfolioFrontEnd#readme"
+}
