@@ -2,22 +2,26 @@
 .container-flex{
   display: flex;
   height: auto;
-  border:5px solid  rgb(32, 32, 82);
+  border:10px solid  rgb(6, 6, 48);
   text-align: center;
   padding: 20px;
+  margin: 0%;
 }
 
 .navbar{
+  display: flex;
+  width: 100%;
+  height: auto;
   background-color: rgb(243, 181, 137);
   margin: 0px;
-  border:5px solid rgb(6, 6, 48);
+  border:10px solid rgb(6, 6, 48);
   
  
 }
 
 .mat-card {
   background-color:rgb(243, 181, 137);
-  border:5px solid rgb(6, 7, 48);
+  border:10px solid rgb(6, 6, 48);
   margin: 0px;
   padding: 20px;
 
@@ -49,13 +53,16 @@ div#profile-background img {
 
 ul{
   list-style: none;
-  
+  width: 100%;
+  height: auto;
 }
 footer{
   display:flex;
+  width: 100%;
+  height: auto;
   background-color: rgb(243, 181, 137);
   margin: 0px;
-  border:5px solid rgb(6, 6, 48);
+  border:10px solid rgb(6, 6, 48);
   padding: 5px; 
 }
 .list-group-item-light{ 
