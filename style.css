@@ -1,13 +1,16 @@
 
+body{
+  box-sizing: border-box;
+}
 .container-flex{
   display: flex;
   height: auto;
   border:10px solid  rgb(6, 6, 48);
+  background-color: rgb(243, 181, 137);
   text-align: center;
-  padding: 20px;
+  padding:20px;
   margin: 0%;
 }
-
 .navbar{
   display: flex;
   width: 100%;
@@ -15,10 +18,9 @@
   background-color: rgb(243, 181, 137);
   margin: 0px;
   border:10px solid rgb(6, 6, 48);
-  
  
-}
-
+  }
+  
 .mat-card {
   background-color:rgb(243, 181, 137);
   border:10px solid rgb(6, 6, 48);
@@ -26,7 +28,6 @@
   padding: 20px;
 
 }
-
 .mat-card#first-card {
    padding: 0;
 }
@@ -43,35 +44,17 @@ div#profile-background img {
   border-radius: 50%;
   margin-top: -10%;
 }
-.container-flex{
-  background-color: rgb(243, 181, 137);
-}
-.img-thumbnail{
-  width: 200px;
-  height: 200px;
-}
 
-ul{
-  list-style: none;
-  width: 100%;
-  height: auto;
-}
-footer{
-  display:flex;
-  width: 100%;
-  height: auto;
-  background-color: rgb(243, 181, 137);
-  margin: 0px;
-  border:10px solid rgb(6, 6, 48);
-  padding: 5px; 
+.img-thumbnail{
+  display: flex;
+  width: 20em;
+  height: 20em;
 }
 .list-group-item-light{ 
   display: flex;
-  align-items: end;
-  width: 80px;
+  list-style: none;
 }
 .fa-brands{
   color: black;
+  padding: 5px; 
 }
-
-
