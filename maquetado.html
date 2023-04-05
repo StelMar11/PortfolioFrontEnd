@@ -32,89 +32,117 @@
             <li class="list-group-item-light"><a href="https://web.telegram.org/k/" target="_blank" ><i class="fa-brands fa-telegram"></i></a></li>
            </a>
           </ul>
-         <!-- Button trigger modal -->
-           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            <i class="fa-solid fa-lock"></i>
-           </button>
+        
+         <!-- Button trigger modal login -->
+         <div>
+         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          <i class="fa-solid fa-lock"></i>
+         </button>
+         <button type="button" class="btn">
+          <i class="fa-solid fa-lock-open"></i>
+         </button>
+        </div>
         </nav>
     </header>
+    <section id="editHeader" class="pb-3 bg-dark">
+
+
+
+
+    </section>
+    <!--Banner-->
     
-
-<!--Banner-->
     <section class="banner">
-      <div class="card mat-card" id="first card">
-        <div id="profile-background">
-          <img src="assets/img/bannersi.jpg" class="img-fluid" alt="Mano cosmica"/>
-        </div>
-
-<!--Foto de Perfil-->        
+     <div class="card mat-card" id="first card">
+      <div id="profile-background">
+        <img src="assets/img/bannersi.jpg" class="img-fluid" alt="Mano cosmica"/>
+      </div>
+     
+    <!--Foto de Perfil-->        
         <div class="row">
           <div class="col-sm-12">
             <img src="assets/img/fotoPerfilst.jpg" class="img-fluid" id="perfil" alt="Foto del perfil">
           </div>
-            <div class="btn-edit">
-             <a href="#" class="btn-right"><i class="fa fa-pen"></i>
-              </a>  
-            </div>
         </div>
 
         <div class="row">
           <div class="col-sm-12">
-            <h1>Acerca de...</h1>
-            <div class="btn-edit">  
-            <p > Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+            <h1>Acerca de...</h1> 
+            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
               porro consequuntur vel rem laborum harum molestiae et aut qui.
               Eligendi, non perspiciatis voluptatibus delectus consequuntur
               ratione molestiae asperiores aperiam. Dolore?
-              <a href="#" class="btn-right"><i class="fa fa-pen"></i>
-              </a>
-            </p>
+              </p>
             </div>    
           </div>
         </div>
       </section>
+      <!--Edición del banner, foto de perfil y acerca de-->
+    <section class="pb-3 bg-dark">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <!--button trigger-->
+          <button type="button" class="btn btn-light"data-bs-toggle="modal" data-bs-target="#editarBannerModal">
+              Editar Banner
+            </button>
+            <button type="button" class="btn-close" aria-label="Close">
+            </button>
+          </div>
+          <div class="col">
+            <button class="btn btn-light">
+              Editar foto perfil
+            </button>
+            <button type="button" class="btn-close" aria-label="Close">
+            </button>
+          </div>
+          <div class="col">
+            <button class="btn btn-light">
+              Editar Información
+            </button>
+            <button type="button" class="btn-close" aria-label="Close"></button>
+          </div>
+        </div>
+      </div>
+    </section>
 
+      
  <!--Experiencia-->   
     <section class="experiencia">
       <div class="container-flex">
         <div class="row">
-         <h2>Experiencia</h2>
+         <h2 class="titulo">Experiencia</h2>
         <div class="col-sm-12 col-md-4" >
-        <div class="btn-edit">
-          <img src="assets/img/escuelaGe.jpg"class="img-fluid img-thumbnail" alt="Foto icono escuela">
-          <a href="#" class="btn-right"><i class="fa fa-pen"></i>
-          </a>
+       <img src="assets/img/escuelaGe.jpg"class="img-fluid img-thumbnail" alt="Foto icono escuela">
           <h5>Docente en escuela Nivel Primario</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-      </div>
+
         <div class="col-sm-12 col-md-4">
-          <div class="btn-edit">
           <img src="assets/img/congresoEducExpo.jpeg"class="img-fluid img-thumbnail" alt="Foto del Certificado Congreso de Educación">
-          <a href="#" class="btn-right"><i class="fa fa-pen"></i>
-          </a>
-           <h5>Congreso de educación<br>-Tallerista-</h5>
+         <h5>Congreso de educación<br>-Tallerista-</h5>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div> 
-        </div>
+       
          <div class="col-sm-12 col-md-4">
-          <div class="btn-edit">
           <img src="assets/img/feria de ciencias3.jpg"class="img-fluid img-thumbnail" alt="Certificados de participación en feria de ciencias">
-          <a href="#" class="btn-right"><i class="fa fa-pen"></i>
-          </a>
           <h5>Feria de Ciencias</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
          </div>
         </div>
-        </div>
-    </div>
+  </section>
+  <section id="editExperiencia" class="pb-3 bg-dark">
+
+
+
+
   </section>
   
  <!--Educación-->   
     <section class="formacion">
     <div class="container-flex">
       <div class="row">
-        <h2>Educación</h2>
+        <h2 class="titulo">Educación</h2>
         <div class="col-sm-12 col-md-6">
           <div class="btn-edit">
           <img src="assets/img/tituloDocente.jpeg"class="img-fluid img-thumbnail" alt="Foto Título docente">
@@ -178,12 +206,18 @@
       </div>
     </div>
   </section>
+  <section id="editEducacion" class="pb-3 bg-dark">
+
+
+
+
+  </section>
 
 <!-- Hard &Soft Skill -->
     <section class="habilidades">
     <div class="container-flex">
       <div class="row">
-        <h2>Hard & Soft Skill</h2>
+        <h2 class="titulo">Hard & Soft Skill</h2>
         <div class="col-sm-12 col-md-4">
           <div class="btn-edit">
           <img src="assets/img/softskills.jpg"class="img-fluid" alt="Porcetanje habilidades">
@@ -230,12 +264,18 @@
     </div>
     </div>
   </section>
+  <section id="editHabilidades" class="pb-3 bg-dark">
+
+
+
+
+  </section>
 
 <!--Proyectos-->
     <section class="proyectos">
     <div class="container-flex">
       <div class="row">
-        <h2>Proyectos</h2>
+        <h2 class="titulo">Proyectos</h2>
         <div class="col-sm-12 col-md-4">
           <div class="btn-edit">
           <img src="assets/img/pie_pap_tij.png"class="img-fluid img-thumbnail" alt="Foto del codigo del juego"/>
@@ -280,6 +320,12 @@
       </div>
     </div>
   </section>
+  <section id="editProyectos" class="pb-3 bg-dark">
+
+
+
+
+  </section>
 
 <!--footer-->
     <footer>
@@ -295,6 +341,12 @@
        </ul>
       </div>
     </footer>
+    <section id="editFooter" class="pb-3 bg-dark">
+
+
+
+
+    </section>
     <!--MODALES-->
     <!--Modal Login-->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -323,6 +375,11 @@
         </div>
       </div>
     </div>
+   
+   <!--Modal Banner-->
+    <!--Modal  img perfil-->
+    <!--Modale info-->
+  
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

@@ -47,14 +47,24 @@ div#profile-background img {
 
 .img-thumbnail{
   display: flex;
-  width: 20em;
-  height: 20em;
+  width: 15em;
+  height: 15em;
 }
+
 .list-group-item-light{ 
   display: flex;
   list-style: none;
+  padding: 1rem;
 }
 .fa-brands{
   color: black;
   padding: 5px; 
+}
+.titulo{
+  text-align: center;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+.experiencia{
+  align-items: center;
 }
