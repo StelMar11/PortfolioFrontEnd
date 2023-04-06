@@ -35,13 +35,13 @@
         
          <!-- Button trigger modal login -->
          <div>
-         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#loginModal">
           <i class="fa-solid fa-lock"></i>
-         </button>
-         <button type="button" class="btn">
+        </button>
+        <button type="button" class="btn">
           <i class="fa-solid fa-lock-open"></i>
          </button>
-        </div>
+      </div>
         </nav>
     </header>
 </section>
@@ -67,41 +67,43 @@
             </div>
           </div>
         </div>
+     </section>
 
-        <!--<div class="row">
-          <div class="col-sm-12">
-            <h1>Acerca de...</h1> 
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              porro consequuntur vel rem laborum harum molestiae et aut qui.
-              Eligendi, non perspiciatis voluptatibus delectus consequuntur
-              ratione molestiae asperiores aperiam. Dolore?
-              </p>
-            </div>    
+    <section id="editBanner" class="bg-dark p-2">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+          <!--Button trigger modal banner-->
+          <div>
+            <button type="button" class="btn btn-dark" 
+            data-bs-toggle="modal" data-bs-target="#bannerModal">
+             Editar Banner
+           </button>
+           </div>
+           </div>
           </div>
-        </div>-->
-      </section>
-     
+        </div>
+</section>
 
-      
- <!--Experiencia-->   
+<!--Experiencia-->   
     <section class="experiencia">
       <div class="container-flex">
         <div class="row">
          <h2 class="titulo">Experiencia</h2>
-        <div class="col-sm-12 col-md-3" >
+        <div class="col-sm-12 col-md-4" >
        <img src="assets/img/escuelaGe.jpg"class="img-fluid img-thumbnail" alt="Foto icono escuela">
-          <h5>Docente en escuela Nivel Primario</h5>
+          <br><h5>Docente en escuela Nivel Primario</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
         <div class="col-sm-12 col-md-4">
           <img src="assets/img/congresoEducExpo.jpeg"class="img-fluid img-thumbnail" alt="Foto del Certificado Congreso de Educación">
-         <h5>Congreso de educación<br>-Tallerista-</h5>
+         <br><h5>Congreso de educación<br>-Tallerista-</h5>
            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div> 
        
          <div class="col-sm-12 col-md-4">
           <img src="assets/img/feria de ciencias3.jpg"class="img-fluid img-thumbnail" alt="Certificados de participación en feria de ciencias">
-          <h5>Feria de Ciencias</h5>
+          <br><h5>Feria de Ciencias</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
          </div>
       </div>
@@ -298,33 +300,59 @@
    
     <!--MODALES-->
     <!--Modal Login-->
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">Registrarse</h1>
+            <h1 class="modal-title fs-5" id="loginModalLabel">Registrarse</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-
             <form>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">E-mail</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <label for="loginInputEmail1" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="loginInputEmail1" aria-describedby="emailHelp">
                 <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <label for="loginInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="loginInputPassword1">
               </div>
             </form>
           </div>
           <div class="modal-footer">
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Enviar</button>
           </div>
         </div>
       </div>
     </div>
    
    <!--Modal Banner-->
+   <div class="modal fade" id="bannerModal" tabindex="-1" 
+   aria-labelledby="bannerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" 
+          id="bannerModalLabel">Editar</h1>
+          <button type="button" class="btn-close" 
+          data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="imgBanner" class="form-label">Editar imagen</label>
+              <input type="url" placeholder="inserte url de imagen" id="imgBanner"
+               name="imgBanner" >
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
    
   
     <!--Modal  img perfil-->
