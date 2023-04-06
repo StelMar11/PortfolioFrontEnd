@@ -44,12 +44,15 @@ div#profile-background img {
   border-radius: 50%;
   margin-top: -10%;
 }
-
 .img-thumbnail{
-  display: flex;
-  width: 15em;
-  height: 15em;
+  display:flex;
+  width: 15rem;
+  height: 15rem;
+  text-align: center;
+  
+ 
 }
+
 
 .list-group-item-light{ 
   display: flex;
@@ -58,7 +61,7 @@ div#profile-background img {
 }
 .fa-brands{
   color: black;
-  padding: 5px; 
+  padding: 0.5rem; 
 }
 .titulo{
   text-align: center;
@@ -69,4 +72,8 @@ div#profile-background img {
 .experiencia{
   align-items: center;
 }
+.aire{
+  padding-left: 1rem;
+}
+
 
