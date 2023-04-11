@@ -46,7 +46,7 @@ div#profile-background img {
 }
 #perfil{
   border-radius: 50%;
-  margin-top: -10%;
+  margin-top: -5%;
 }
 .img-thumbnail{
   display:flex;
@@ -56,6 +56,8 @@ div#profile-background img {
   border-image: auto;
   transition: all 300ms;
   position: relative;
+  border-radius: 10%;
+  box-shadow: 10px 10px rgb(104, 104, 147, 1);
   }
 
   .img-thumbnail:hover{
