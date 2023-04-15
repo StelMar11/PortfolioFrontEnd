@@ -29,7 +29,7 @@ footer{
   display: flex;
   width: 100%;
   height: auto;
-  margin: 0px;
+  margin: 0%;
  }
  /*Estilo Banner*/ 
 .mat-card {
@@ -74,8 +74,9 @@ transform: scale(1.15);
 
 /*Estilo de la lista de contacto*/
 .list-group-item-light{ 
+ 
  list-style: none;
-  padding: 1rem;
+  padding: 0.9rem;
 }
 /*Estilo de los íconos de contacto*/
 .fa-brands{
