@@ -88,9 +88,27 @@ transform: scale(1.15);
   text-align: center;
   padding-bottom: 2%;
   padding-top: 2%;
-  font-size: 2.5em;
+  font-family: 'Courgette', cursive;
+  font-size: 3rem;
+  color:rgb(6, 91, 91);
+  text-shadow: 2px 4px #9bd6ef;
 }
-/*Estilo section exxperiencia*/
+/*Estilos h1*/
+.fuente{
+  font-family: 'Courgette', cursive;
+  font-size: 3rem;
+  color:rgb(6, 91, 91);
+  text-shadow: 2px 2px #9bd6ef;
+}
+/*Estilos h3 y h5*/
+.fuente2{
+  font-family: 'Courgette', cursive;
+}
+/*estilo parrafos*/
+p{
+  font-family: 'Courgette', cursive; 
+}
+/*Estilo section experiencia*/
 .experiencia{
   align-items: center;
 }
