@@ -24,7 +24,7 @@
   <body >
     <!--Navbar-->
     <header class="fondo">
-      <nav class="navbar">
+      <nav class="navbar"id="inicio">
         <img class="aire" src="assets/img/logoArgProgne.png" alt="Logo de Argentina Programa"/>
           <ul class="list-group list-group-horizontal">
            <a class="navbar-brand" href="#">
@@ -61,18 +61,29 @@
             class="img-fluid" id="perfil" alt="Foto del perfil">
             <p class="datos">Stella Maris Salgado <br>Full Stack Developer junior</br></p>
             <div class="col-sm-12">
-            <h1 class="fuente">Acerca de...</h1> 
+            <h1 class="fuente" >Acerca de...</h1> 
             <p> Me considero una persona proactiva, organizada
                y responsable, con buenas relaciones interpersonales, teniendo 
                a lo largo de mi carrera experiencia de 
                trabajo en equipo, tanto en forma presencial como remota.
                En mi formación continua en el área del desarrollo web, busco experiencia
                y ampliar mis conocimientos.<br>Te invito a recorrer mi portfolio, haciendo scroll
-               o dirigiéndote a la sección que te interese, haciendo clic aquí. 
+               o dirigiéndote a la sección que te interese, haciendo clic en el menú.
+                
+             
+              <div class="dropdown" id="menu">
+                <button class="btn btn-color dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menú
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#exp">Experiencia</a></li>
+                  <li><a class="dropdown-item" href="#educ">Educación</a></li>
+                  <li><a class="dropdown-item" href="#habil">Habilidades</a></li>
+                  <li><a class="dropdown-item" href="#proyec">Proyectos</a></li>
+                </ul>
+              </div>
               </p>
             </div>
-          </div>
-        </div>
      </section>
 
     <!--Botones de edicición del banner-->
@@ -104,7 +115,7 @@
     <section class="experiencia">
       <div class="container-flex fondo">
         <div class="row">
-         <h2 class="titulo">Experiencia</h2>
+         <h2 class="titulo" id="exp">Experiencia</h2>
         <div class="col-sm-12 col-md-4" >
        <img src="assets/img/escuelaGe.jpg"class="img-fluid img-thumbnail" alt="Foto icono escuela">
           <br><h5 class="fuente2">Docente de Nivel Primario</h5>
@@ -125,7 +136,8 @@
           <p>Instancia zonal y Provincial, realizadas de manera virtual,
             utilizando variados recursos y herramientas
              tecnológicas, para la presentación del proyecto<br>
-          Fecha: 17/11/2021</p>
+          Fecha: 17/11/2021
+         </p>
          </div>
       </div>
     </div>
@@ -158,7 +170,7 @@
     <section class="formacion">
     <div class="container-flex fondo">
       <div class="row">
-        <h2 class="titulo">Educación</h2>
+        <h2 class="titulo" id="educ">Educación</h2>
         <div class="col-sm-12 col-md-4">
           <img src="assets/img/tituloDocente.jpeg"class="img-fluid img-thumbnail" alt="Foto Título docente"><br>
           <h5 class="fuente2">Maestra especializada en Educación Primaria</h5>
@@ -276,12 +288,12 @@ data-bs-toggle="modal" data-bs-target="#javaModal">
   </div>
   </section>
 
-<!-- Hard &Soft Skill -->
+<!-- Habilidades-->
     <section class="habilidades">
     <!--<div class=""-->
       <div class="container-flex fondo">
       <div class="row">
-        <h2 class="titulo">Hard & Soft Skill</h2>
+        <h2 class="titulo" id="habil">Habilidades</h2>
         <div class="col-sm-12 col-md-4">
           <div class="btn-edit">
           <img src="assets/img/softskills.jpg"class="img-fluid" alt="Porcetanje habilidades">
@@ -335,7 +347,7 @@ data-bs-toggle="modal" data-bs-target="#javaModal">
     <section class="proyectos">
     <div class="container-flex fondo">
       <div class="row">
-        <h2 class="titulo">Proyectos</h2>
+        <h2 class="titulo" id="proyec">Proyectos</h2>
         <div class="col-sm-12 col-md-4">
           <img src="assets/img/pie_pap_tij.png"class="img-fluid img-thumbnail" alt="Foto del codigo del juego"/><br>
           <h3 class="fuente2">Juego: "Piedra, papel o tijera"<br> Lenguaje C</h3>
@@ -364,7 +376,19 @@ data-bs-toggle="modal" data-bs-target="#javaModal">
           <p>Proyecto de práctica, en el cuál el programa interactuando 
             con el usuario, brinda información sobre saldo, registrando ingresos y/o
             egresos que el usuario ingrese por teclado. 
-           </p>
+
+            <div class="dropdown" id="menu">
+              <button class="btn btn-color dropdown-toggle1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menú
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#exp">Experiencia</a></li>
+                <li><a class="dropdown-item" href="#educ">Educación</a></li>
+                <li><a class="dropdown-item" href="#habil">Habilidades</a></li>
+                <li><a class="dropdown-item" href="#inicio">inicio</a></li>
+              </ul>
+            </div>
+          </p>
         </div>
       </div>
     </div>
@@ -968,6 +992,7 @@ aria-labelledby="cajeroModalLabel" aria-hidden="true">
    </div>
  </div>
 </div>
+
 
   <!--Modal Login-->
   <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">

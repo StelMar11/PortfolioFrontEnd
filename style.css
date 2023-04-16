@@ -65,6 +65,29 @@ div#profile-background img {
   text-align:center;
   justify-content: center;
   }
+  /*Estilo menu*/
+  .dropdown{
+    justify-content:center;
+  }
+  .dropdown-toggle{
+    width: 10%;
+    background-color: #d466ef;
+    border-color:rgb(104, 104, 147);
+  }
+  #menu{
+     font-family: 'Courgette', cursive;
+}
+.dropdown-menu{
+  background-color: #d466ef;
+}
+.btn-color{
+  background-color:#d466ef;
+}
+.dropdown-toggle1{
+  width: 30%;
+    background-color: #d466ef;
+    border-color:rgb(104, 104, 147);
+}
   
 /*Estilo de las img de las section*/
 .img-thumbnail{
