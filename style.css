@@ -55,6 +55,17 @@ div#profile-background img {
   border-radius: 50%;
   margin-top: -5%;
 }
+.centrado{
+  text-align: center;
+}
+/*estilos texto debajo perfil*/
+.datos{
+  display: flex;
+  font-size: 1.8rem; 
+  text-align:center;
+  justify-content: center;
+  }
+  
 /*Estilo de las img de las section*/
 .img-thumbnail{
   display:flex;
