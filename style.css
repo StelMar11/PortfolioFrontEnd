@@ -70,8 +70,8 @@ div#profile-background img {
     justify-content:center;
   }
   .dropdown-toggle{
-    width: 10%;
-    background-color: #d466ef;
+    width:auto;
+    background-color:#d466ef;
     border-color:rgb(104, 104, 147);
   }
   #menu{
@@ -82,11 +82,6 @@ div#profile-background img {
 }
 .btn-color{
   background-color:#d466ef;
-}
-.dropdown-toggle1{
-  width: 30%;
-    background-color: #d466ef;
-    border-color:rgb(104, 104, 147);
 }
   
 /*Estilo de las img de las section*/
