@@ -44,8 +44,39 @@
           <i class="fa-solid fa-lock-open"></i>
          </button>
       </div>
-        </nav>
-    </header>
+    </nav>
+  </header>
+      <!--Botones de edición redes-->
+      
+    <section id="redesModal" class="bg-dark">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+          <!--Button trigger LinkedIn-->
+          <button type="button" class="btn btn-dark" 
+            data-bs-toggle="modal" data-bs-target="#linkeModal">
+             Editar LinkedIn
+          </button>
+          <!--Button trigger GitHub-->
+         <button type="button" class="btn btn-dark" 
+         data-bs-toggle="modal" data-bs-target="#gitPerfilModal">
+          Editar GitHub 
+       </button>
+        <!--Button trigger Discord-->
+        <button type="button" class="btn btn-dark" 
+        data-bs-toggle="modal" data-bs-target="#discordModal">
+         Editar discord 
+      </button>
+       <!--Button trigger Telegram-->
+       <button type="button" class="btn btn-dark" 
+       data-bs-toggle="modal" data-bs-target="#telegramModal">
+        Editar Telegram
+     </button>
+       </div>
+      </div>
+    </div>
+    </section>
+       
 
     <!--Banner-->
     
@@ -70,7 +101,7 @@
                y ampliar mis conocimientos.<br>Te invito a recorrer mi portfolio, haciendo scroll
                o dirigiéndote a la sección que te interese, haciendo clic en el menú.
                 
-             
+             <!--Menú recorrer portfolio-->
               <div class="dropdown" id="menu">
                 <button class="btn btn-color dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Menú
@@ -376,7 +407,7 @@ data-bs-toggle="modal" data-bs-target="#javaModal">
           <p>Proyecto de práctica, en el cuál el programa interactuando 
             con el usuario, brinda información sobre saldo, registrando ingresos y/o
             egresos que el usuario ingrese por teclado. 
-
+          <!--Menú Ir a inicio-->
             <div class="dropdown" id="menu">
               <button class="btn btn-color dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Menú
@@ -425,16 +456,134 @@ data-bs-toggle="modal" data-bs-target="#javaModal">
       <h5 class="aire fuente2">Información de contacto</h5>
       <ul class="list-group list-group-horizontal">
         <a class="navbar-brand" href="#">
-         <li class="list-group-item-light"><a href="https://www.linkedin.com/in/stella-maris-salgado-95099838/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
-         <li class="list-group-item-light"><a href="https://github.com/StelMar11" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-         <li class="list-group-item-light"><a href="https://discord.com/channels/@me" target="_blank" ><i class="fa-brands fa-discord"></i></a></li>
-         <li class="list-group-item-light"><a href="https://web.telegram.org/k/" target="_blank" ><i class="fa-brands fa-telegram"></i></a></li>
+         <li class="list-group-item-light"><a href= "#inicio" ><i class="fa-brands fa-linkedin-in"></i></a></li>
+         <li class="list-group-item-light"><a href="#inicio" ><i class="fa-brands fa-github"></i></a></li>
+         <li class="list-group-item-light"><a href= "#inicio"><i class="fa-brands fa-discord"></i></a></li>
+         <li class="list-group-item-light"><a href="#inicio" ><i class="fa-brands fa-telegram"></i></a></li>
         </a>
        </ul>
       </div>
     </footer>
    
     <!--MODALES-->
+<!--Modal Editar Redes-->
+<!--Modal Editar LinkedIn-->
+<div class="modal fade" id="linkeModal" tabindex="-1" 
+aria-labelledby="linkeModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" 
+       id="linkeModalLabel">Editar LinkedIn</h1>
+       <button type="button" class="btn-close" 
+       data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <form>
+         <div class="mb-3">
+           <label for="linkRedes" class="form-label">Editar</label>
+           <input type="url" placeholder="inserte url nueva" id="linkRedes"
+            name="linkRedes" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
+         </div>
+       </form>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+       <button type="button" class="btn btn-primary">Enviar</button>
+     </div>
+   </div>
+ </div>
+</div>
+<!--Modal Editar GitHub-->
+<div class="modal fade" id="gitPerfilModal" tabindex="-1" 
+aria-labelledby="gitPerfilModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" 
+       id="gitPerfilModalLabel">Editar GitHub</h1>
+       <button type="button" class="btn-close" 
+       data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <form>
+         <div class="mb-3">
+           <label for="gitPerfilRedes" class="form-label">Editar</label>
+           <input type="url" placeholder="inserte url nueva" id="gitPerfilRedes"
+            name="gitPerfilRedes" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
+         </div>
+       </form>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+       <button type="button" class="btn btn-primary">Enviar</button>
+     </div>
+   </div>
+ </div>
+</div>
+<!--Modal Editar Discord-->
+<div class="modal fade" id="discordModal" tabindex="-1" 
+aria-labelledby="discordModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" 
+       id="discordModalLabel">Editar Discord</h1>
+       <button type="button" class="btn-close" 
+       data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <form>
+         <div class="mb-3">
+           <label for="discordRedes" class="form-label">Editar</label>
+           <input type="url" placeholder="inserte url nueva" id="discordRedes"
+            name="discordRedes" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
+         </div>
+       </form>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+       <button type="button" class="btn btn-primary">Enviar</button>
+     </div>
+   </div>
+ </div>
+</div>
+
+<!--Modal Editar Telegram-->
+<div class="modal fade" id="telegramModal" tabindex="-1" 
+aria-labelledby="telegramModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" 
+       id="telegramModalLabel">Editar Telegram</h1>
+       <button type="button" class="btn-close" 
+       data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <form>
+         <div class="mb-3">
+           <label for="telegramRedes" class="form-label">Editar</label>
+           <input type="url" placeholder="inserte url nueva" id="telegramRedes"
+            name="telegramRedes" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
+         </div>
+       </form>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+       <button type="button" class="btn btn-primary">Enviar</button>
+     </div>
+   </div>
+ </div>
+</div>
+
+
+
+
   <!--Modal Editar Banner-->
    <div class="modal fade" id="bannerModal" tabindex="-1" 
    aria-labelledby="bannerModalLabel" aria-hidden="true">
@@ -452,6 +601,7 @@ data-bs-toggle="modal" data-bs-target="#javaModal">
               <label for="imgBanner" class="form-label">Editar imagen</label>
               <input type="url" placeholder="inserte url de imagen" id="imgBanner"
                name="imgBanner" >
+               <input class="btn btn-dark" type="reset" value="Eliminar">
             </div>
           </form>
         </div>
@@ -480,6 +630,7 @@ data-bs-toggle="modal" data-bs-target="#javaModal">
               <label for="imgPerfil" class="form-label">Editar Foto Perfil</label>
               <input type="url" placeholder="inserte url de imagen" id="imgPerfil"
                name="imgPerfil" >
+               <input class="btn btn-dark" type="reset" value="Eliminar">
             </div>
           </form>
         </div>
@@ -507,6 +658,7 @@ data-bs-toggle="modal" data-bs-target="#javaModal">
             <div class="mb-3">
               <label for="aboutTextarea1" class="form-label">Escribir texto</label>
               <textarea class="form-control" id="aboutFormControlTextarea1" rows="3"></textarea>
+              <input class="btn btn-dark" type="reset" value="Eliminar">
             </div>
           </form>
         </div>
@@ -536,10 +688,12 @@ aria-labelledby="escuelaModalLabel" aria-hidden="true">
            <label for="imgEscuela" class="form-label">Editar Foto Perfil</label>
            <input type="url" placeholder="inserte url de imagen" id="imgEscuela"
             name="imgEscuela" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="escuelaTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="escuelaFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
@@ -568,10 +722,12 @@ aria-labelledby="congresoModalLabel" aria-hidden="true">
            <label for="imgCongreso" class="form-label">Editar Foto Congreso</label>
            <input type="url" placeholder="inserte url de imagen" id="imgCongreso"
             name="imgCongreso" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="congresoTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="congresoFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
@@ -600,10 +756,12 @@ aria-labelledby="feriaModalLabel" aria-hidden="true">
            <label for="imgFeria" class="form-label">Editar Foto Feria</label>
            <input type="url" placeholder="inserte url de imagen" id="imgFeria"
             name="imgFeria" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="feriaTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="feriaFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
@@ -632,10 +790,12 @@ aria-labelledby="tituloModalLabel" aria-hidden="true">
            <label for="imgTitulo" class="form-label">Editar Título</label>
            <input type="url" placeholder="inserte url de imagen" id="imgTitulo"
             name="imgTitulo" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="tituloTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="tituloFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
@@ -663,10 +823,12 @@ aria-labelledby="ticsModalLabel" aria-hidden="true">
            <label for="imgTics" class="form-label">Editar Título</label>
            <input type="url" placeholder="inserte url de imagen" id="imgTics"
             name="imgTics" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="ticsTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="ticsFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
@@ -694,10 +856,12 @@ aria-labelledby="seProgModalLabel" aria-hidden="true">
            <label for="imgSeProg" class="form-label">Editar imagen certificado</label>
            <input type="url" placeholder="inserte url de imagen" id="imgSeProg"
             name="imgSeProg" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="seProgTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="seProgFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
@@ -725,10 +889,12 @@ aria-labelledby="cursoCModalLabel" aria-hidden="true">
            <label for="imgCursoC" class="form-label">Editar imagen certificado</label>
            <input type="url" placeholder="inserte url de imagen" id="imgCursoC"
             name="imgCursoC" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="cursoCTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="cursoCFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
@@ -756,10 +922,12 @@ aria-labelledby="htmlCssModalLabel" aria-hidden="true">
            <label for="imgHtmlCss" class="form-label">Editar imagen certificado</label>
            <input type="url" placeholder="inserte url de imagen" id="imgHtmlCss"
             name="imgHtmlCss" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="htmlCssTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="htmlCssFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
@@ -787,10 +955,12 @@ aria-labelledby="yoProgModalLabel" aria-hidden="true">
            <label for="imgYoProg" class="form-label">Editar imagen certificado</label>
            <input type="url" placeholder="inserte url de imagen" id="imgYoProg"
             name="imgYoProg" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="yoProgTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="yoProgFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
@@ -818,10 +988,12 @@ aria-labelledby="gitModalLabel" aria-hidden="true">
            <label for="imgGit" class="form-label">Editar imagen certificado</label>
            <input type="url" placeholder="inserte url de imagen" id="imgGit"
             name="imgGit" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="gitTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="gitFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
@@ -849,10 +1021,12 @@ aria-labelledby="baseDatosModalLabel" aria-hidden="true">
            <label for="imgBaseDatos" class="form-label">Editar imagen certificado</label>
            <input type="url" placeholder="inserte url de imagen" id="imgBaseDatos"
             name="imgBaseDatos" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="baseDatosTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="baseDatosFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
@@ -880,10 +1054,12 @@ aria-labelledby="javaModalLabel" aria-hidden="true">
            <label for="imgJava" class="form-label">Editar imagen certificado</label>
            <input type="url" placeholder="inserte url de imagen" id="imgJava"
             name="imgJava" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="javaTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="javaFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
@@ -915,10 +1091,12 @@ aria-labelledby="juegoModalLabel" aria-hidden="true">
            <label for="imgJuego" class="form-label">Editar imagen Juego</label>
            <input type="url" placeholder="inserte url de imagen" id="imgJuego"
             name="imgJuego" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="juegoTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="juegoFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
@@ -947,10 +1125,12 @@ aria-labelledby="calendarioModalLabel" aria-hidden="true">
            <label for="imgCalendario" class="form-label">Editar imagen calendario</label>
            <input type="url" placeholder="inserte url de imagen" id="imgCalendario"
             name="imgCalendario" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="calendarioTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="calendarioFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
@@ -978,10 +1158,12 @@ aria-labelledby="cajeroModalLabel" aria-hidden="true">
            <label for="imgCajero" class="form-label">Editar imagen certificado</label>
            <input type="url" placeholder="inserte url de imagen" id="imgCajero"
             name="imgCajero" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
          </div>
          <div class="mb-3">
           <label for="cajeroTextarea1" class="form-label">Escribir texto</label>
           <textarea class="form-control" id="cajeroFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-dark" type="reset" value="Eliminar">
         </div>
        </form>
      </div>
