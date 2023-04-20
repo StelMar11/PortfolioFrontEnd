@@ -171,7 +171,7 @@ transform: scale(1.15);
     0% {width: 0%;}
     100% {width: 90%;}
   }
-  .barra:hover .skill{
+  .skill:hover {
     animation: forwards 5s ease;
   }
 /*Estilo de la lista de contacto*/
