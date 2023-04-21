@@ -372,12 +372,53 @@ data-bs-toggle="modal" data-bs-target="#javaModal">
                   <div  class="barra">
                    <div class="skill soc">90%</div>
                   </div>
-
-      </div>
+         </div>
      </div>
    </section>
   <!-- Botones Editar habilidades-->
-  
+   <section id="editSkill" class="bg-dark">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+        <!--Button trigger html-->
+        <button type="button" class="btn btn-dark" 
+          data-bs-toggle="modal" data-bs-target="#htmlModal">
+           Editar HTML
+        </button>
+      <!--Button trigger CSS-->
+       <button type="button" class="btn btn-dark" 
+       data-bs-toggle="modal" data-bs-target="#cssModal">
+        Editar CSS
+     </button>
+      <!--Button JAVASCRIPT-->
+      <button type="button" class="btn btn-dark" 
+      data-bs-toggle="modal" data-bs-target="#jsModal">
+       Editar JS
+    </button>
+     <!--Button JAVA-->
+    <button type="button" class="btn btn-dark" 
+    data-bs-toggle="modal" data-bs-target="#javaSkModal">
+     Editar JAVA skill
+  </button>
+  <!--Button GIT Y GITHUB-->
+  <button type="button" class="btn btn-dark" 
+  data-bs-toggle="modal" data-bs-target="#gitSkModal">
+   Editar GIT
+</button>
+<!--Button COMUNICACION-->
+<button type="button" class="btn btn-dark" 
+data-bs-toggle="modal" data-bs-target="#comunModal">
+ Editar Comunicación
+</button>
+<!--Button SOCIALIZACION-->
+<button type="button" class="btn btn-dark" 
+data-bs-toggle="modal" data-bs-target="#socialModal">
+ Editar Socialización
+</button>
+     </div>
+    </div>
+  </div>
+  </section>
 
 <!--Proyectos-->
     <section class="proyectos">
@@ -1076,6 +1117,203 @@ aria-labelledby="javaModalLabel" aria-hidden="true">
  </div>
 </div>
 <!--Modal Editar Habilidades-->
+<!--SKILL HTML-->
+<div class="modal fade" id="htmlModal" tabindex="-1" 
+aria-labelledby="htmlModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" 
+       id="htmlModalLabel">Editar HTML</h1>
+       <button type="button" class="btn-close" 
+       data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <form>
+         <div class="mb-3">
+           <label for="htmlSkillModal" class="form-label">Editar</label>
+           <input type="text" placeholder="ingrese nuevos datos" id="htmlSkillModal"
+            name="htmlSkillModal" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
+         </div>
+       </form>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+       <button type="button" class="btn btn-primary">Enviar</button>
+     </div>
+   </div>
+ </div>
+</div>
+
+<!--SKILL CSS-->
+<div class="modal fade" id="cssModal" tabindex="-1" 
+aria-labelledby="cssModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" 
+       id="cssModalLabel">Editar CSS</h1>
+       <button type="button" class="btn-close" 
+       data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <form>
+         <div class="mb-3">
+           <label for="cssSkillModal" class="form-label">Editar</label>
+           <input type="text" placeholder="ingrese nuevos datos" id="cssSkillModal"
+            name="cssSkillModal" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
+         </div>
+       </form>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+       <button type="button" class="btn btn-primary">Enviar</button>
+     </div>
+   </div>
+ </div>
+</div>
+<!--SKILL JS-->
+<div class="modal fade" id="jsModal" tabindex="-1" 
+aria-labelledby="jsModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" 
+       id="jsModalLabel">Editar JAVASCRIPT</h1>
+       <button type="button" class="btn-close" 
+       data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <form>
+         <div class="mb-3">
+           <label for="jsSkillModal" class="form-label">Editar</label>
+           <input type="text" placeholder="ingrese nuevos datos" id="jsSkillModal"
+            name="jsSkillModal" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
+         </div>
+       </form>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+       <button type="button" class="btn btn-primary">Enviar</button>
+     </div>
+   </div>
+ </div>
+</div>
+<!--SKILL JAVA-->
+<div class="modal fade" id="javaSkModal" tabindex="-1" 
+aria-labelledby="javaSkModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" 
+       id="javaSkModalLabel">Editar JAVA</h1>
+       <button type="button" class="btn-close" 
+       data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <form>
+         <div class="mb-3">
+           <label for="javaSkSkillModal" class="form-label">Editar</label>
+           <input type="text" placeholder="ingrese nuevos datos" id="javaSkSkillModal"
+            name="javaSkSkillModal" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
+         </div>
+       </form>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+       <button type="button" class="btn btn-primary">Enviar</button>
+     </div>
+   </div>
+ </div>
+</div>
+<!--SKILL GIT Y GITHUB-->
+<div class="modal fade" id="gitSkModal" tabindex="-1" 
+aria-labelledby="gitSkModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" 
+       id="gitSkModalLabel">Editar GIT Y GITHUB</h1>
+       <button type="button" class="btn-close" 
+       data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <form>
+         <div class="mb-3">
+           <label for="gitSkSkillModal" class="form-label">Editar</label>
+           <input type="text" placeholder="ingrese nuevos datos" id="gitSkSkillModal"
+            name="gitSkSkillModal" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
+         </div>
+       </form>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+       <button type="button" class="btn btn-primary">Enviar</button>
+     </div>
+   </div>
+ </div>
+</div>
+<!--SKILL Comunicación-->
+<div class="modal fade" id="comunModal" tabindex="-1" 
+aria-labelledby="comunModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" 
+       id="comunModalLabel">Editar Comunicación</h1>
+       <button type="button" class="btn-close" 
+       data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <form>
+         <div class="mb-3">
+           <label for="comunSkillModal" class="form-label">Editar</label>
+           <input type="text" placeholder="ingrese nuevos datos" id="comunSkillModal"
+            name="comunSkillModal" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
+         </div>
+       </form>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+       <button type="button" class="btn btn-primary">Enviar</button>
+     </div>
+   </div>
+ </div>
+</div>
+<!--SKILL Socialización-->
+<div class="modal fade" id="socialModal" tabindex="-1" 
+aria-labelledby="socialModalLabel" aria-hidden="true">
+ <div class="modal-dialog">
+   <div class="modal-content">
+     <div class="modal-header">
+       <h1 class="modal-title fs-5" 
+       id="socialModalLabel">Editar Socialización</h1>
+       <button type="button" class="btn-close" 
+       data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+     <div class="modal-body">
+       <form>
+         <div class="mb-3">
+           <label for="socialSkillModal" class="form-label">Editar</label>
+           <input type="text" placeholder="ingrese nuevos datos" id="socialSkillModal"
+            name="socialSkillModal" >
+            <input class="btn btn-dark" type="reset" value="Eliminar">
+         </div>
+       </form>
+     </div>
+     <div class="modal-footer">
+       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+       <button type="button" class="btn btn-primary">Enviar</button>
+     </div>
+   </div>
+ </div>
+</div>
 
 
 <!--Modal Editar Proyectos-->
