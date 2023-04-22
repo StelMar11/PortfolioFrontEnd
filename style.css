@@ -67,8 +67,9 @@ div#profile-background img {
   }
   /*Estilo menu*/
   .dropdown{
-    justify-content:center;
-  }
+    text-align:end
+
+    }
   .dropdown-toggle{
     width:auto;
     background-color:#d466ef;
@@ -76,7 +77,7 @@ div#profile-background img {
   }
   #menu{
      font-family: 'Courgette', cursive;
-}
+     }
 .dropdown-menu{
   background-color: #d466ef;
 }
