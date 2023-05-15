@@ -24,6 +24,7 @@ footer{
   padding: 20px;
   margin: 0%;
 }
+
 /*Estilo del Navbar*/
 .navbar{
   display: flex;
@@ -212,10 +213,10 @@ transform: scale(1.15);
 p{
   font-family: 'Courgette', cursive; 
 }
-/*Estilo section experiencia*/
+/*Estilo section experiencia
 .experiencia{
   align-items: center;
-}
+}*/
 /*Estilo clase de la img del log arg progr y de Info de contacto del footer*/
 .aire{
   padding-left: 1rem;
